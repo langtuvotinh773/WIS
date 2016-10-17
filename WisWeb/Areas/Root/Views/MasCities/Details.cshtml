@@ -1,0 +1,83 @@
+﻿@model WisModel.MasCity
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MasCity</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysCreateCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysCreateCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysCreateUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysCreateUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysUpdateCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysUpdateCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysUpdateUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysUpdateUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysStatusFlg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysStatusFlg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WSysIsDelete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WSysIsDelete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WCountryCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WCountryCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.WSysCode }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

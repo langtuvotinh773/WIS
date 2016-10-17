@@ -1,0 +1,4 @@
+D:\All_Temp\WIS\EventLogs\Utility\bin\Debug\WisLogs.Utility.dll
+D:\All_Temp\WIS\EventLogs\Utility\bin\Debug\WisLogs.Utility.pdb
+D:\All_Temp\WIS\EventLogs\Utility\obj\Debug\WisLogs.Utility.dll
+D:\All_Temp\WIS\EventLogs\Utility\obj\Debug\WisLogs.Utility.pdb

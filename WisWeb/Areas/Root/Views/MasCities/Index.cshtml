@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WisModel.MasCity>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysCreateCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysCreateUtc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysUpdateCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysUpdateUtc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysStatusFlg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WSysIsDelete)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WCountryCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysCreateCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysCreateUtc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysUpdateCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysUpdateUtc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysStatusFlg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WSysIsDelete)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WCountryCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.WSysCode }) |
+            @Html.ActionLink("Details", "Details", new { id=item.WSysCode }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.WSysCode })
+        </td>
+    </tr>
+}
+
+</table>

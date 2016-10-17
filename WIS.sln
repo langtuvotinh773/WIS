@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D81CDB07-9785-4903-9BB7-05D64488891C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MODEL", "MODEL", "{2C5662E9-1C23-4EAA-AC52-12690EDB208A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REPO", "REPO", "{6423A7B5-6ED9-49E4-9E8F-17394CD515AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{01675080-1062-4AAB-935D-A84295A6C2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisApi", "WisApi\WisApi.csproj", "{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisModel", "WisModel\WisModel.csproj", "{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisRepo", "WisRepo\WisRepo.csproj", "{348E0133-25F5-4516-A9FF-57F5A91CECB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisWeb", "WisWeb\WisWeb.csproj", "{7C35972B-6552-40D6-8DF1-20F04790D527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LOG", "LOG", "{EFC0A559-2FB4-406F-AF12-29D5A07473F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisLogs.Logs", "EventLogs\EventLogs\WisLogs.Logs.csproj", "{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisLogs.Contracts", "EventLogs\Contracts\WisLogs.Contracts.csproj", "{F755B250-B173-4E2C-AB86-DDF567D86081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisLogs.Utility", "EventLogs\Utility\WisLogs.Utility.csproj", "{0059DBBD-AF82-41B6-8181-E2C0A56F48D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348E0133-25F5-4516-A9FF-57F5A91CECB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348E0133-25F5-4516-A9FF-57F5A91CECB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348E0133-25F5-4516-A9FF-57F5A91CECB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348E0133-25F5-4516-A9FF-57F5A91CECB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C35972B-6552-40D6-8DF1-20F04790D527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C35972B-6552-40D6-8DF1-20F04790D527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C35972B-6552-40D6-8DF1-20F04790D527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C35972B-6552-40D6-8DF1-20F04790D527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F755B250-B173-4E2C-AB86-DDF567D86081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F755B250-B173-4E2C-AB86-DDF567D86081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F755B250-B173-4E2C-AB86-DDF567D86081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F755B250-B173-4E2C-AB86-DDF567D86081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0059DBBD-AF82-41B6-8181-E2C0A56F48D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0059DBBD-AF82-41B6-8181-E2C0A56F48D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0059DBBD-AF82-41B6-8181-E2C0A56F48D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0059DBBD-AF82-41B6-8181-E2C0A56F48D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26C5FE48-F5BF-43E6-B495-DBAD24EEC0A7} = {D81CDB07-9785-4903-9BB7-05D64488891C}
+		{8DAA598D-D15B-463F-8DF8-ACDB7EDEED10} = {2C5662E9-1C23-4EAA-AC52-12690EDB208A}
+		{348E0133-25F5-4516-A9FF-57F5A91CECB1} = {6423A7B5-6ED9-49E4-9E8F-17394CD515AF}
+		{7C35972B-6552-40D6-8DF1-20F04790D527} = {01675080-1062-4AAB-935D-A84295A6C2F3}
+		{FF4E7B0B-A8C9-403B-BF72-0DCEDE12465F} = {EFC0A559-2FB4-406F-AF12-29D5A07473F1}
+		{F755B250-B173-4E2C-AB86-DDF567D86081} = {EFC0A559-2FB4-406F-AF12-29D5A07473F1}
+		{0059DBBD-AF82-41B6-8181-E2C0A56F48D6} = {EFC0A559-2FB4-406F-AF12-29D5A07473F1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anhvt.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WisApi\\WisApi.csproj
+		SccProjectTopLevelParentUniqueName1 = WIS.sln
+		SccProjectName1 = WisApi
+		SccLocalPath1 = WisApi
+		SccProjectUniqueName2 = WisModel\\WisModel.csproj
+		SccProjectTopLevelParentUniqueName2 = WIS.sln
+		SccProjectName2 = WisModel
+		SccLocalPath2 = WisModel
+		SccProjectUniqueName3 = WisRepo\\WisRepo.csproj
+		SccProjectTopLevelParentUniqueName3 = WIS.sln
+		SccProjectName3 = WisRepo
+		SccLocalPath3 = WisRepo
+		SccProjectUniqueName4 = WisWeb\\WisWeb.csproj
+		SccProjectTopLevelParentUniqueName4 = WIS.sln
+		SccProjectName4 = WisWeb
+		SccLocalPath4 = WisWeb
+		SccProjectUniqueName5 = EventLogs\\Utility\\WisLogs.Utility.csproj
+		SccProjectTopLevelParentUniqueName5 = WIS.sln
+		SccProjectName5 = EventLogs/Utility
+		SccLocalPath5 = EventLogs\\Utility
+		SccProjectUniqueName6 = EventLogs\\EventLogs\\WisLogs.Logs.csproj
+		SccProjectTopLevelParentUniqueName6 = WIS.sln
+		SccProjectName6 = EventLogs/EventLogs
+		SccLocalPath6 = EventLogs\\EventLogs
+		SccProjectUniqueName7 = EventLogs\\Contracts\\WisLogs.Contracts.csproj
+		SccProjectTopLevelParentUniqueName7 = WIS.sln
+		SccProjectName7 = EventLogs/Contracts
+		SccLocalPath7 = EventLogs\\Contracts
+	EndGlobalSection
+EndGlobal

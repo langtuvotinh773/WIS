@@ -1,0 +1,9 @@
+D:\All_Temp\WIS\WisModel\bin\Debug\WisModel.dll.config
+D:\All_Temp\WIS\WisModel\bin\Debug\WisModel.dll
+D:\All_Temp\WIS\WisModel\bin\Debug\WisModel.pdb
+D:\All_Temp\WIS\WisModel\bin\Debug\EntityFramework.dll
+D:\All_Temp\WIS\WisModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\All_Temp\WIS\WisModel\bin\Debug\EntityFramework.xml
+D:\All_Temp\WIS\WisModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\All_Temp\WIS\WisModel\obj\Debug\WisModel.dll
+D:\All_Temp\WIS\WisModel\obj\Debug\WisModel.pdb

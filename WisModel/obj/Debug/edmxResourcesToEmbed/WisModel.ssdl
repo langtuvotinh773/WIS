@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WisModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MasCity">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WCountryCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WName" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MasCountry">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WName" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MasDistrict">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WCityCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WName" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MasManager">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WType" Type="tinyint" Nullable="false" />
+    <Property Name="WAccount" Type="varchar" MaxLength="255" />
+    <Property Name="WPassword" Type="varchar" MaxLength="255" />
+    <Property Name="WProfileCode" Type="char" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="MasProfile">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WFullName" Type="nvarchar" MaxLength="1000" />
+    <Property Name="WEmail" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="WBirthday" Type="varchar" MaxLength="255" />
+    <Property Name="WSex" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="SearchAddress">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WCountryCode" Type="char" MaxLength="255" />
+    <Property Name="WCityCode" Type="char" MaxLength="255" />
+    <Property Name="WDistrict" Type="char" MaxLength="255" />
+    <Property Name="WName" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="WOwner" Type="nvarchar" MaxLength="500" />
+    <Property Name="WPhone" Type="varchar" MaxLength="128" />
+    <Property Name="WAddress" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SearchCategory">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WName" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="WParent" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="SearchRate">
+    <Key>
+      <PropertyRef Name="WSearchCode" />
+      <PropertyRef Name="WUserCode" />
+    </Key>
+    <Property Name="WSearchCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WUserCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WRate" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TempAddress">
+    <Key>
+      <PropertyRef Name="WSysCode" />
+    </Key>
+    <Property Name="WSysCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysCreateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysUpdateCode" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="WSysUpdateUtc" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="WSysStatusFlg" Type="tinyint" Nullable="false" />
+    <Property Name="WSysIsDelete" Type="tinyint" Nullable="false" />
+    <Property Name="WCountryCode" Type="char" MaxLength="255" />
+    <Property Name="WCityCode" Type="char" MaxLength="255" />
+    <Property Name="WDistrict" Type="char" MaxLength="255" />
+    <Property Name="WName" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="WOwner" Type="nvarchar" MaxLength="500" />
+    <Property Name="WPhone" Type="varchar" MaxLength="128" />
+    <Property Name="WAddress" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WisModelStoreContainer">
+    <EntitySet Name="MasCity" EntityType="Self.MasCity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MasCountry" EntityType="Self.MasCountry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MasDistrict" EntityType="Self.MasDistrict" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MasManager" EntityType="Self.MasManager" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MasProfile" EntityType="Self.MasProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SearchAddress" EntityType="Self.SearchAddress" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SearchCategory" EntityType="Self.SearchCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SearchRate" EntityType="Self.SearchRate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TempAddress" EntityType="Self.TempAddress" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

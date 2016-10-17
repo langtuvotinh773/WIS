@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WisModelStoreContainer" CdmEntityContainer="WisEntities">
+    <EntitySetMapping Name="MasCities">
+      <EntityTypeMapping TypeName="WisModel.MasCity">
+        <MappingFragment StoreEntitySet="MasCity">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WCountryCode" ColumnName="WCountryCode" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MasCountries">
+      <EntityTypeMapping TypeName="WisModel.MasCountry">
+        <MappingFragment StoreEntitySet="MasCountry">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MasDistricts">
+      <EntityTypeMapping TypeName="WisModel.MasDistrict">
+        <MappingFragment StoreEntitySet="MasDistrict">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WCityCode" ColumnName="WCityCode" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MasManagers">
+      <EntityTypeMapping TypeName="WisModel.MasManager">
+        <MappingFragment StoreEntitySet="MasManager">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WType" ColumnName="WType" />
+          <ScalarProperty Name="WAccount" ColumnName="WAccount" />
+          <ScalarProperty Name="WPassword" ColumnName="WPassword" />
+          <ScalarProperty Name="WProfileCode" ColumnName="WProfileCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MasProfiles">
+      <EntityTypeMapping TypeName="WisModel.MasProfile">
+        <MappingFragment StoreEntitySet="MasProfile">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WFullName" ColumnName="WFullName" />
+          <ScalarProperty Name="WEmail" ColumnName="WEmail" />
+          <ScalarProperty Name="WBirthday" ColumnName="WBirthday" />
+          <ScalarProperty Name="WSex" ColumnName="WSex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchAddresses">
+      <EntityTypeMapping TypeName="WisModel.SearchAddress">
+        <MappingFragment StoreEntitySet="SearchAddress">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WCountryCode" ColumnName="WCountryCode" />
+          <ScalarProperty Name="WCityCode" ColumnName="WCityCode" />
+          <ScalarProperty Name="WDistrict" ColumnName="WDistrict" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+          <ScalarProperty Name="WOwner" ColumnName="WOwner" />
+          <ScalarProperty Name="WPhone" ColumnName="WPhone" />
+          <ScalarProperty Name="WAddress" ColumnName="WAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchCategories">
+      <EntityTypeMapping TypeName="WisModel.SearchCategory">
+        <MappingFragment StoreEntitySet="SearchCategory">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+          <ScalarProperty Name="WParent" ColumnName="WParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchRates">
+      <EntityTypeMapping TypeName="WisModel.SearchRate">
+        <MappingFragment StoreEntitySet="SearchRate">
+          <ScalarProperty Name="WSearchCode" ColumnName="WSearchCode" />
+          <ScalarProperty Name="WUserCode" ColumnName="WUserCode" />
+          <ScalarProperty Name="WRate" ColumnName="WRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempAddresses">
+      <EntityTypeMapping TypeName="WisModel.TempAddress">
+        <MappingFragment StoreEntitySet="TempAddress">
+          <ScalarProperty Name="WSysCode" ColumnName="WSysCode" />
+          <ScalarProperty Name="WSysCreateCode" ColumnName="WSysCreateCode" />
+          <ScalarProperty Name="WSysCreateUtc" ColumnName="WSysCreateUtc" />
+          <ScalarProperty Name="WSysUpdateCode" ColumnName="WSysUpdateCode" />
+          <ScalarProperty Name="WSysUpdateUtc" ColumnName="WSysUpdateUtc" />
+          <ScalarProperty Name="WSysStatusFlg" ColumnName="WSysStatusFlg" />
+          <ScalarProperty Name="WSysIsDelete" ColumnName="WSysIsDelete" />
+          <ScalarProperty Name="WCountryCode" ColumnName="WCountryCode" />
+          <ScalarProperty Name="WCityCode" ColumnName="WCityCode" />
+          <ScalarProperty Name="WDistrict" ColumnName="WDistrict" />
+          <ScalarProperty Name="WName" ColumnName="WName" />
+          <ScalarProperty Name="WOwner" ColumnName="WOwner" />
+          <ScalarProperty Name="WPhone" ColumnName="WPhone" />
+          <ScalarProperty Name="WAddress" ColumnName="WAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

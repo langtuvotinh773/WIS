@@ -1,0 +1,4 @@
+D:\All_Temp\WIS\EventLogs\Contracts\bin\Debug\WisLogs.Contracts.dll
+D:\All_Temp\WIS\EventLogs\Contracts\bin\Debug\WisLogs.Contracts.pdb
+D:\All_Temp\WIS\EventLogs\Contracts\obj\Debug\WisLogs.Contracts.dll
+D:\All_Temp\WIS\EventLogs\Contracts\obj\Debug\WisLogs.Contracts.pdb

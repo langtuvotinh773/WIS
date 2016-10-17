@@ -1,0 +1,11 @@
+D:\All_Temp\WIS\EventLogs\EventLogs\obj\Debug\WisLogs.Logs.csprojResolveAssemblyReference.cache
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.EventLogs.dll
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.EventLogs.pdb
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\log4net.dll
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.Contracts.dll
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.Utility.dll
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.Contracts.pdb
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\WisLogs.Utility.pdb
+D:\All_Temp\WIS\EventLogs\EventLogs\bin\Debug\log4net.xml
+D:\All_Temp\WIS\EventLogs\EventLogs\obj\Debug\WisLogs.EventLogs.dll
+D:\All_Temp\WIS\EventLogs\EventLogs\obj\Debug\WisLogs.EventLogs.pdb
